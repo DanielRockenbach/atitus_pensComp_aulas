@@ -1,14 +1,24 @@
 # Pensamento Computacional - Execícios de aula
 
-- [Prof Matheus Jardim Bernardes](https://matheusjardimb.com/)
+- Daniel Amaral Rockenbach
+- [Meu Github](https://github.com/DanielRockenbach)
 - [Atitus.edu.br](https://atitus.edu.br/)
-
+  - elemento 2
+- elemento 3
+- elemento 4
 Exercícios de aula da disciplina de Pensamento Computacional.
 
-## Sobre mim
+## Fatos:
 
---PREENCHER--
+### Sobre mim
 
+ Me chamo ***Daniel***, tenho 20 anos, estou cursando Ciência da Computação, ainda no 1º semestre.
+
+ ![Atitus](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmFhr3fIfIXMtCoKSapxLCGMxquPT-gtJCRw&s)
+ 
+ * [ATITUS EDUCAÇÃO](https://www.atitus.edu.br/)
+ 
+ * [!][ATITUS![alt text](image-1.png))]([](https://www.atitus.edu.br/pos))]
 ## DICAS:
 
 - Entenda completamente o que o exercício solicita ANTES de começar a programar.
