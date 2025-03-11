@@ -16,9 +16,7 @@ Exercícios de aula da disciplina de Pensamento Computacional.
 
  ![Atitus](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmFhr3fIfIXMtCoKSapxLCGMxquPT-gtJCRw&s)
  
- * [ATITUS EDUCAÇÃO](https://www.atitus.edu.br/)
  
- * [!][ATITUS![alt text](image-1.png))]([](https://www.atitus.edu.br/pos))]
 ## DICAS:
 
 - Entenda completamente o que o exercício solicita ANTES de começar a programar.
