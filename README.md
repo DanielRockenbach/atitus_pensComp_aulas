@@ -20,7 +20,7 @@ Exercícios de aula da disciplina de Pensamento Computacional.
 
  ![Atitus](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmFhr3fIfIXMtCoKSapxLCGMxquPT-gtJCRw&s)
  
- [![Legenda](![alt text](image-4.png))](https://www.atitus.edu.br/)]
+
  
 ## DICAS:
 
