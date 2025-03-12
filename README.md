@@ -16,6 +16,7 @@ Exercícios de aula da disciplina de Pensamento Computacional.
 
  ![Atitus](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmFhr3fIfIXMtCoKSapxLCGMxquPT-gtJCRw&s)
  
+ [![Legenda](![alt text](image-4.png))](https://www.atitus.edu.br/)]
  
 ## DICAS:
 
@@ -65,3 +66,17 @@ Caso esteja usando o [Git](https://git-scm.com/), considere utilizar o pre-commi
 ```bash
 pre-commit install
 ```
+
+
+
+
+
+# Tabela de pontos corridos desde 2003 do futebol brasileiro
+
+| Times        | Pontos | GM | GS | Participações |
+|--------------|:-----:|:----:|:-----:|:--:|
+| São Paulo    | 1383  | 1216 | 922   | 22  |
+| Flamengo     | 1349  | 1230 | 1.004 | 22  |
+| Internacional| 1286  | 1095 | 889   | 21  |
+| Corinthians  | 1265  | 1053 | 877   | 21  |
+
