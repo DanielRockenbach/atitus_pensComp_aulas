@@ -14,9 +14,16 @@ Exercícios de aula da disciplina de Pensamento Computacional.
 
  Me chamo ***Daniel***, tenho 20 anos, estou cursando Ciência da Computação, ainda no 1º semestre.
 
+# [Tabela](https://github.com/DanielRockenbach/atitus_pensComp_aulas/blob/main/Arquivoaulalink/Arquivo%20aula)
+
  ![Atitus](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmFhr3fIfIXMtCoKSapxLCGMxquPT-gtJCRw&s)
  
- [![Legenda](![alt text](image-4.png))](https://www.atitus.edu.br/)]
+## Exemplo
+ [![License MIT](https://img.shields.io/github/license/DS4SD/docling)](https://opensource.org/licenses/MIT)
+
+----
+
+ [![Legenda](image-4.png)](https://www.atitus.edu.br/)
  
 ## DICAS:
 
