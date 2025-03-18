@@ -29,7 +29,6 @@ print("Terminou com sucesso!")
 
 # minhas primeiras funções
 
-
 def hora_para_minuto(valor):
     return valor * 60
 
@@ -37,11 +36,10 @@ def minuto_para_segundo(valor):
     return valor * 60
 
 def hora_para_segundo(valor):
-    return hora_para_minuto(valor) * 60 
+    return valor * 60 * 60 
 
 def dia_para_segundo(valor):
-    return minuto_para_segundo(hora_para_minuto(valor)) * 24
-
+    return valor * 60 * 60 * 24
 
 assert hora_para_minuto(0) == 0
 assert hora_para_minuto(1) == 60
