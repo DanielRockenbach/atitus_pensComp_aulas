@@ -1,5 +1,4 @@
 
-# minhas primeiras funções
 
 def metro_para_centimetro(valor):
     return valor * 100

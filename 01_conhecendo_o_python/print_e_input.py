@@ -1,7 +1,6 @@
 name = input("Qual seu nome?")
 print("Olá,", name)
 
-# minhas alterações
 
 name = input("Qual seu nome?")
 

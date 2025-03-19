@@ -1,6 +1,5 @@
 
 
-# minhas primeiras funções
 
 def hora_para_minuto(valor):
     return valor * 60
