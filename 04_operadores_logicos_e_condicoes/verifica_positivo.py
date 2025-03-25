@@ -6,7 +6,7 @@ def eh_positivo(numero):
 
 
 def eh_negativo(numero):
-    if not eh_positivo(numero):
+    if not (numero >= 0):
         return True
 
 def test(): 
@@ -25,3 +25,4 @@ def test():
     assert not eh_negativo(10)
 
 print(eh_negativo(-10))
+print(eh_positivo(6))
