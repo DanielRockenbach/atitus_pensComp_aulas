@@ -9,11 +9,11 @@ def proximo_bissexto(ano):
     if ano % 4 == 0:
         return ano
     if ano % 4 == 3:
-       return ano + 3
+       return ano + 1
     if ano % 4 == 2:
        return ano + 2
     if ano % 4 == 1:
-       return ano + 1
+       return ano + 3
 
 
 
@@ -32,4 +32,4 @@ def test():
     assert proximo_bissexto(2029) == 2032
     assert proximo_bissexto(2020) == 2020
 
-print(proximo_bissexto(2021))
+print(proximo_bissexto(2035))
