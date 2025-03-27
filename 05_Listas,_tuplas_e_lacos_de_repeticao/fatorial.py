@@ -1,6 +1,7 @@
+numero >= 0
 def fatorial(numero):
-    # Preencher
-    pass
+    for numero in range(numero)):
+        print(numero, )
 
 
 assert fatorial(0) == 1
