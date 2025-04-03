@@ -1,5 +1,6 @@
 def desenha_losango(altura):
-    # preencher
+    if altura < 3
+        return None
     pass
 
 

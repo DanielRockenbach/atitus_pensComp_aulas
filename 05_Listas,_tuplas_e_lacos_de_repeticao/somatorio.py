@@ -1,4 +1,6 @@
 def somatorio(numero):
+    if numero < 0:
+        return  None
     resultado = 0
     for n in range(numero + 1):
         resultado += n
@@ -18,5 +20,4 @@ def test():
     assert somatorio(8) == 36
     assert somatorio(9) == 45
 
-print(somatorio(100))
-
+print(somatorio(5))
