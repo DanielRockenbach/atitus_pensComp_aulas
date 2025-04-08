@@ -1,7 +1,17 @@
 def desenha_losango(altura):
-    if altura < 3
-        return None
-    pass
+    if altura % 2 == 0:
+        altura = altura + 1
+    meio = altura // 2
+    for linha in range(altura):
+        if linha <= meio
+            spaces =  meio - linha
+            star = linha * 2 + 1
+    else: 
+        spaces = linha - meio
+        star = altura - (linha - meio)*2
+    print(',' * spaces + '#' * star)
+    
+    
 
 
 altura = int(input("Digite um valor ímpar para a altura do losango: "))

@@ -1,12 +1,12 @@
 def horoscopo(mes):
 	if mes <= 0 or mes > 12:
-           		return None
+ 		return None
 	if mes <= 3:
-           		return "Python"
+     	return "Python"
 	if mes <= 6: 
-           		return "Java"
+          return "Java"
 	if mes <= 9:
-           		return "PHP"
+ 		return "PHP"
 	return "TypeScript"
  
 
