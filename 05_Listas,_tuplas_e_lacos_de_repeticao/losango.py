@@ -1,15 +1,16 @@
 def desenha_losango(altura):
     if altura % 2 == 0:
         altura = altura + 1
+
     meio = altura // 2
-    for linha in range(altura):
-        if linha <= meio
-            spaces =  meio - linha
-            star = linha * 2 + 1
-    else: 
-        spaces = linha - meio
-        star = altura - (linha - meio)*2
-    print(',' * spaces + '#' * star)
+    for line  in range(altura):
+        if line <= meio:
+            espacos =  meio - line
+            estrelas = line * 2 + 1
+        else:
+            espacos = line - meio
+            estrelas = altura - (line - meio)*2
+        print(' ' * espacos + '*' * estrelas)
     
     
 
