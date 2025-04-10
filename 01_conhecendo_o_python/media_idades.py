@@ -31,3 +31,7 @@ pessoas = int(input("Quantas pessoas?"))
 soma = sum(int(input("Idade: ")) for _ in range(pessoas))
 
 print("Média:" , soma / pessoas)
+
+name = input("Qual seu nome?")
+surname= input("qual seu sobrenome?")
+print("Olá,", name, surname)p

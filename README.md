@@ -16,7 +16,6 @@ Exercícios de aula da disciplina de Pensamento Computacional.
 
  # [TABELA](https://github.com/DanielRockenbach/atitus_pensComp_aulas/blob/9c2d9f4f9c5fde494e5870542c10254e06ebfd3b/Arquivo%20aula)
 
----
 
  ![Atitus](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmFhr3fIfIXMtCoKSapxLCGMxquPT-gtJCRw&s)
  
@@ -30,6 +29,13 @@ Exercícios de aula da disciplina de Pensamento Computacional.
 
 
  [![Legenda](![alt text](image-4.png))](https://www.atitus.edu.br/)]
+
+# [Tabela](https://github.dev/DanielRockenbach/atitus_pensComp_aulas/blob/9c2d9f4f9c5fde494e5870542c10254e06ebfd3b/Arquivo%20aula)
+
+
+ ![Atitus](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmFhr3fIfIXMtCoKSapxLCGMxquPT-gtJCRw&s)
+ 
+
  
 ## DICAS:
 
