@@ -1,7 +1,9 @@
 def multiply_matrix_by_scalar(matrix, scalar):
-    # Preencher
-    pass
-
+    result = []
+    for row in matrix:
+        new_row = [element * scalar for element in row]
+        result.append(new_row)
+    return result
 
 matrix_1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 result_01 = [[3, 6, 9], [12, 15, 18], [21, 24, 27]]
