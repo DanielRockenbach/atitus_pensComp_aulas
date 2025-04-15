@@ -1,4 +1,5 @@
 
+# Daniel, Julia e Henrique
 
 ano_nascimento = int(input('Digite o ano de nascimento: '))
 aposentadoria =  int(input('Digite  com quantos anos você deseja se aposentar: '))
@@ -37,9 +38,6 @@ for mes in range(gasto - (custo_mensal * 12)):
 print (f"Seu acumulo de herança é R$ {patrimonio}")
 
 
-
-
-# Daniel, Julia e Henrique
 
 
 
