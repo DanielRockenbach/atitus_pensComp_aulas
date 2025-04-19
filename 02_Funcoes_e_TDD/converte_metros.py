@@ -16,6 +16,5 @@ def test():
     assert centimetro_para_metro(1000) == 10
     assert centimetro_para_metro(0) == 0
 
-    print("Terminou com sucesso!")
 
-    print(metro_para_centimetro(# variavel))
+print(metro_para_centimetro(3))
