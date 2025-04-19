@@ -31,4 +31,10 @@ def test():
     assert dia_para_segundo(1) == 86400
     assert dia_para_segundo(2) == 172800
 
-    print("Terminou com sucesso!")
+print(hora_para_minuto(5))
+
+print(minuto_para_segundo(5))
+
+print(hora_para_segundo(5))
+
+print(dia_para_segundo(1))
