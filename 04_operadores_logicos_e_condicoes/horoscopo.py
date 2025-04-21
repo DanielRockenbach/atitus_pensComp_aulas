@@ -2,13 +2,14 @@ def horoscopo(mes):
 	if mes <= 0 or mes > 12:
  		return None
 	if mes <= 3:
-     	return "Python"
+          return "Python"
 	if mes <= 6: 
           return "Java"
 	if mes <= 9:
  		return "PHP"
-	return "TypeScript"
- 
+	else:
+          return "TypeScript"
+     return
 
 def test():
      assert horoscopo(1) == "Python"
