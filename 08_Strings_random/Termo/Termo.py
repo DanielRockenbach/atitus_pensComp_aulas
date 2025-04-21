@@ -34,11 +34,19 @@ def menu():
     
     segredo = random.choice(respostas)
 
-    chutes = dicionario("")
+    chutes = dicionario("Dicionario_5.txt")
+    respostas = dicionario("resposta_5.txt")
+    
+    chutes = dicionario("Dicionario_6.txt")
+    respostas = dicionario("respostas_6.txt")
+    
+    chutes = dicionario("Dicionario_7.txt")
+    respostas = dicionario("respostas_7.txt")
 
     modo = int(input("Selecione o modo de jogo: "))
         if modo = 5:
-            return
+            chutes = dicionario("Dicionario_5.txt")
+            respostas = dicionario("resposta_5.txt")
         
         
         
@@ -72,8 +80,12 @@ def menu():
         
         
         if modo = 6:
-            return
+            chutes = dicionario("Dicionario_6.txt")
+            respostas = dicionario("respostas_6.txt")
+            
         if modo = 7:
-            return
+            chutes = dicionario("Dicionario_7.txt")
+            respostas = dicionario("respostas_7.txt")
+
         if modo < 5 and modo > 7
-            return 'Valor invalido, selecione '
+            return 'Valor invalido, selecione outro'
