@@ -44,37 +44,34 @@ def termo(chutes, resposta)
             print("Parabéns! Você acertou qual era a palavra secreta: ", segredo)
             break
         
-        tentativas +=1
+        tentativas += 1
         feedback = avalia_chute(chute, segredo)
         print(feedback)
 
     if tentativas > max_tentativas:
         Print("Jogo encerrado, suas tentaivas acabaram. A palavra secreta era: ", segredo)
 
-
+    #chutes = dicionario("Dicionario_5.txt")
+    #respostas = dicionario("resposta_5.txt")
     
-
-    chutes = dicionario("Dicionario_5.txt")
-    respostas = dicionario("resposta_5.txt")
+    #chutes = dicionario("Dicionario_6.txt")
+    #respostas = dicionario("respostas_6.txt")
     
-    chutes = dicionario("Dicionario_6.txt")
-    respostas = dicionario("respostas_6.txt")
-    
-    chutes = dicionario("Dicionario_7.txt")
-    respostas = dicionario("respostas_7.txt")
+    #chutes = dicionario("Dicionario_7.txt")
+    #respostas = dicionario("respostas_7.txt")
 
     modo = int(input("Selecione o modo de jogo: "))
         if modo = 5:
             chutes = dicionario("Dicionario_5.txt")
             respostas = dicionario("resposta_5.txt")
             return termo
-        if modo = 6:
+        elif modo = 6:
             chutes = dicionario("Dicionario_6.txt")
             respostas = dicionario("respostas_6.txt")
             return termo
-        if modo = 7:
+        elif modo = 7:
             chutes = dicionario("Dicionario_7.txt")
             respostas = dicionario("respostas_7.txt")
             return termo
-        if modo < 5 and modo > 7
-            return 'Valor invalido'
+       else:
+            'Valor invalido'
