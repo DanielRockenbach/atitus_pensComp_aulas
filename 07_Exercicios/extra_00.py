@@ -6,7 +6,7 @@ def saudacao(nome, sobrenome, ano_nascimento):
     if not (0<=ano_nascimento<ANO_ATUAL)
         return None
     idade = ANO_ATUAL - int(ano_nascimento)
-    print (f'Olá,{nome} {sobrenome}. Bom dia! Você possuí {idade} anos!')
+    return (f'Olá,{nome} {sobrenome}. Bom dia! Você possuí {idade} anos!')
 
 def test():
     assert (
