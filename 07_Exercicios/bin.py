@@ -1,10 +1,5 @@
 def dec_to_bin(num):
-    resto = num % 2
-    if resto == 0:
-        return resultado
-    if resto == 1:
-        return resultado
-    print(num).append(resultado)
+   
 
 
 def bin_to_dec(val):

@@ -18,6 +18,9 @@ media= (idade_a + idade_b + idade_c + idade_d + idade_e)/5
 print ("A media é", media)
 A media é 33.2
 
+<<<<<<< HEAD
+pessoas = int(input("Quantas pessoas?"))
+=======
 pessoas = int(input("Quantas pessoas?"))
 
 soma = sum(int(input("Idade: ")) for _ in range(pessoas))
@@ -27,3 +30,8 @@ print("Média:" , soma / pessoas)
 name = input("Qual seu nome?")
 surname= input("qual seu sobrenome?")
 print("Olá,", name, surname)p
+>>>>>>> 20e0dde003ec89f0c761b52bd7ccc973cd5bf6c0
+
+soma = sum(int(input("Idade: ")) for _ in range(pessoas))
+
+print("Média:" , soma / pessoas)

@@ -1,7 +1,10 @@
 # Notas da aula
-- Professor matheus ensinou o basico sobre o Github e git
-- Git é o sistema, o restante são marcas (github / gitlab)
+|tables | are | cool| |----------|:----------:|----------:|| col 1 is| left-aligned| 1600$
 
-| Tables   | Are         | Cool | 
-|----------|-------------|------| 
-| col 1 is | left-aligned| $1600|
+| Times | pontos | gols | 
+|----------|:-------------:|------:| 
+| São Paulo| 1383 | 1216 |
+|Flamengo | 1349 | 1230 |
+| Internacional	| 1286 |1095  |
+|Corinthians | 1265 | 1053 |
+

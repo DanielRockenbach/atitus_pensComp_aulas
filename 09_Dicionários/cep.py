@@ -23,9 +23,30 @@ def obtem_dados_endereco(cep):
     # }
     return response
 
-
 def validador_cep(cep):
-    pass
+    if '-' in cep[5:6] and cep.isdigit()  and len(cep) == 9:
+        return True
+    if len(cep) < 8:
+        return False
+    if len(cep) > 8:
+        return False
+    if not cep.isdigit():
+        return False
+    else:
+        return True
+
+
+assert validador_cep("90150-101")
+assert validador_cep("91350200")
+assert validador_cep("91200679")
+assert not validador_cep("91350")
+assert not validador_cep("91350 200")
+assert not validador_cep("91350200 ")
+assert not validador_cep(" 91350200")
+
+print(validador_cep("91350200"))
+    
+    
 
 
 def add_endereco(cache, endereco):
