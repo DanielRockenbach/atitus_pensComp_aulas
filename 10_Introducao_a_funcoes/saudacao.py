@@ -3,14 +3,13 @@ from typing import Optional
 def saudacao(nome, sobrenome: Optional[str] = None, titulo: Optional[str] = 'Sr.') -> str:
     if nome == '':
         return f'Olá!'
-    if sobrenome is None:
+    elif sobrenome is None:
         return f'Olá, {titulo} {nome}'
     elif titulo is None:
         return f'Olá, {titulo} {nome} {sobrenome}'
     elif titulo is not None:
         return f'Olá, {titulo} {nome} {sobrenome}'
-    else:
-        return f'Olá, {titulo} {nome} {sobrenome}'
+    return f'Olá, {titulo} {nome} {sobrenome}'
 
 
 def test():
