@@ -1,5 +1,15 @@
 def eh_primo(numero: int) -> bool:
-    pass
+    if numero <= 0 
+        return 'Valor invalido'
+    if numero % 2 == 0
+        return 'nao eh primo'
+    if numero % 3 == 0
+        return 'nao eh primo'
+    if numero % 5 == 0
+        return 'nao eh primo'
+    if numero % 7 == 0 
+        return 'nao eh primo'
+    return 'eh primo'
 
 
 assert not eh_primo(-1)
