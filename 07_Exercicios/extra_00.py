@@ -3,11 +3,8 @@
 def saudacao(nome, sobrenome, ano_nascimento):
     if not (0 <= ano_nascimento < ANO_ATUAL):
         return None
-<<<<<<< HEAD
-=======
     idade = ANO_ATUAL - int(ano_nascimento)
     return (f'Olá,{nome} {sobrenome}. Bom dia! Você possuí {idade} anos!')
->>>>>>> 043c61666b61699165f87a4d2a78813f467719c2
 
     idade = (ANO_ATUAL - ano_nascimento) - 1
     return f"Olá, {nome} {sobrenome}. Bom dia! Você possui {idade} anos!"
