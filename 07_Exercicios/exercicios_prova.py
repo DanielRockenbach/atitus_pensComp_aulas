@@ -80,12 +80,12 @@ def conversor (valor):
     resultado = (valor * DOLAR)
     return resultado
 
-def test():
-    assert conversor(5) == 26
-    assert conversor(10) == 52
-    assert conversor(100) == 520
-    assert conversor(2.50) == 13
-    assert conversor(1.99) == 10.34
+
+assert conversor(5) == 26
+assert conversor(10) == 52
+assert conversor(100) == 520
+assert conversor(2.50) == 13
+assert conversor(1.99) == 10.34
 
 print(conversor(1.99))
 

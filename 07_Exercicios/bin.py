@@ -1,9 +1,17 @@
 def dec_to_bin(num):
-   
-
+    if num == 0:
+        return '0'
+    binary = ''
+    while num > 0:
+        binary = str(num % 2) + binary  # Adiciona o bit à esquerda
+        num = num // 2
+    return binary
 
 def bin_to_dec(val):
-    # TODO
+    decimal = 0
+    for i, bit in enumerate(reversed(val)):
+        decimal += int(bit) * (2 ** i)
+    return decimal
 
 def test():
     assert dec_to_bin(0) == '0'
@@ -19,5 +27,3 @@ def test():
     assert bin_to_dec('11') == 3
     assert bin_to_dec('100') == 4
     assert bin_to_dec('1010') == 10
-
-print(dec_to_bin(0))
