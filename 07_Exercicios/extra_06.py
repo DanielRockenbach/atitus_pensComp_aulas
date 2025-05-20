@@ -1,15 +1,15 @@
 
 def valor_pgto(valor, metodo):
     if metodo == 1:
-        return valor * 0.85  # 15% discount
+        return valor * 0.85  
     elif metodo == 2:
-        return valor * 0.90  # 10% discount
+        return valor * 0.90  
     elif metodo == 3:
-        return valor         # No discount
+        return valor         
     elif metodo == 4:
-        return valor * 1.10  # 10% interest
+        return valor * 1.10  
     else:
-        return None          # Invalid option
+        return None          
 
 def interface_usuario():
     valor = float(input('Digite o valor do produto: R$ '))
@@ -32,8 +32,7 @@ def interface_usuario():
         print(f'\nValor total com desconto: R$ {resultado:.2f}')
 
 def test():
-    # Test valid payment methods
     assert valor_pgto(100, 1) == 85
     assert valor_pgto(100, 2) == 90
     assert valor_pgto(100, 3) == 100
-    assert valor_pgto(100, 4) == 110
+    assert round(valor_pgto(100, 4), 2) == 110  
