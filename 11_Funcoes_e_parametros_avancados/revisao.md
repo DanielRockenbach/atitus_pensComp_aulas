@@ -17,10 +17,10 @@ def validador_listas(lista, num):
 
 def palindromo(palavra:str) -> bool:
     inverso = 0
-        for i in len(palavra)
-            inverso = inverso + palavra[i]
-            i = i-1
-    if palvra == inverso
+    for i in len(palavra)
+        inverso = inverso + palavra[i]
+        i = i-1
+    if palvra == inverso:
         return True 
     return False
 
