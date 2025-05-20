@@ -24,11 +24,25 @@ def obtem_dados_endereco(cep):
     return response
 
 def validador_cep(cep):
+<<<<<<< HEAD
+    if len(cep) < 8:
+        return False
+    if len(cep) > 8:
+        return False
+    if not cep.isdigit():
+        return False 
+    if cep.isdigit():
+        if '-' in cep[5:6] and len(cep) == 9:
+            return True
+    else:
+        return True
+=======
     if len(cep) == 8:
         if all(char in NUMEROS for char in cep):
             return True
         else:
             return False
+>>>>>>> 043c61666b61699165f87a4d2a78813f467719c2
 
     if len(cep) == 9 and cep[5] == '-':
         parte1 = cep[:5]
@@ -38,8 +52,12 @@ def validador_cep(cep):
         else:
             return False
 
+<<<<<<< HEAD
+
+=======
     return False
 
+>>>>>>> 043c61666b61699165f87a4d2a78813f467719c2
 def add_endereco(cache, endereco):
     uf = endereco.get('uf')
     localidade = endereco.get('localidade')

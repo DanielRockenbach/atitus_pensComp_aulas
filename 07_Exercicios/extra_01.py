@@ -1,21 +1,31 @@
-def letra_em_texto(texto, letra):
-    # Se esta letra existe dentro do texto (sem usar 'in')
-    pass
+def letra_em_texto(texto, letra): # Extra 01 
+    for char in texto:
+        if char == letra:
+            return True
+    return False
 
-
-def conta_letra_em_texto(texto, letra):
-    # Quantas vezes essa letra aparece no texto (sem usar '.count()')
-    pass
-
+def conta_letra_em_texto(texto, letra): 
+    contador = 0
+    for char in texto:
+        if char == letra:
+            contador += 1
+    return contador
 
 def texto_sem_letra(texto, letra):
-    # O texto novamente, removendo todas ocorrências desta letra (sem usar 'replace()')
-    pass
-
+    novo_texto = ""
+    for char in texto:
+        if char != letra:
+            novo_texto += char
+    return novo_texto
 
 def texto_com_letra_upper(texto, letra):
-    # O texto novamente, trocando essa letra por usa versão maiúscula  (sem usar 'replace()')
-    pass
+    novo_texto = ""
+    for char in texto:
+        if char == letra:
+            novo_texto += char.upper()
+        else:
+            novo_texto += char
+    return novo_texto
 
 def test():
     assert letra_em_texto("Pensamento Computacional", "a")

@@ -1,14 +1,19 @@
 
-ANO_ATUAL = 2025
-
 
 def saudacao(nome, sobrenome, ano_nascimento):
-    if not (0<=ano_nascimento<ANO_ATUAL)
+    if not (0 <= ano_nascimento < ANO_ATUAL):
         return None
+<<<<<<< HEAD
+=======
     idade = ANO_ATUAL - int(ano_nascimento)
     return (f'Olá,{nome} {sobrenome}. Bom dia! Você possuí {idade} anos!')
+>>>>>>> 043c61666b61699165f87a4d2a78813f467719c2
 
-def test():
+    idade = (ANO_ATUAL - ano_nascimento) - 1
+    return f"Olá, {nome} {sobrenome}. Bom dia! Você possui {idade} anos!"
+ 
+    
+def test(:)
     assert (
         saudacao("Matheus", "Jardim", 1991)
         == "Olá, Matheus Jardim. Bom dia! Você possui 33 anos!"
@@ -19,6 +24,5 @@ def test():
     )
     assert saudacao("Matheus", "Jardim", 0) is None
     assert saudacao("Matheus", "Jardim", 2050) is None
-
 
 
