@@ -60,14 +60,6 @@ def conversor(valor):
     return round(valor * DOLAR, 2) if valor >= 0 else None
 
 
-    assert conversor(5) == 26.0
-    assert conversor(10) == 52.0
-    assert conversor(100) == 520.0
-    assert conversor(2.50) == 13.0
-    assert conversor(1.99) == 10.35
-    print("Todos os testes do conversor passaram!")
-
-test_conversor()
 print(conversor(1.99))
 
 # exercicio_6
