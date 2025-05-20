@@ -16,4 +16,26 @@ def validador_listas(lista, num):
 ########################
 
 def palindromo(palavra:str) -> bool:
-    for i in 
+    inverso = 0
+        for i in len(palavra)
+            inverso = inverso + palavra[i]
+            i = i-1
+    if palvra == inverso
+        return True 
+    return False
+
+
+##########################
+
+def verifica_repetido(texto: str) -> bool:
+
+
+
+
+
+
+
+##########################
+
+def recebe_dicionarios(lista):
+    

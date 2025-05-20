@@ -28,9 +28,3 @@ def test():
     assert not soma_matriz(matriz, 21)
     assert not soma_matriz(matriz, 22)
 
-'''
-print(soma_matriz(matriz, 20))
-print(soma_matriz(matriz, 18))
-print(soma_matriz(matriz, 21))  ------------> ASSERTS
-print(soma_matriz(matriz, 22))
-'''
