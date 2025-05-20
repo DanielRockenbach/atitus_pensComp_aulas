@@ -1,173 +1,130 @@
 # Exercicio_0
-
 ANO_ATUAL = 2025
-nome = input(str('Qual o seu nome?'))
-sobrenome = input(str('Qual o seu sobrenome?'))
-ano_nascimento = input('Que ano você nasceu?')
-idade = int(ANO_ATUAL) - int(ano_nascimento)
-print('olá,', nome, sobrenome, 'Bom dia! você possui', idade, '!')
+nome = input('Qual o seu nome? ')
+sobrenome = input('Qual o seu sobrenome? ')
+ano_nascimento = int(input('Que ano você nasceu? '))
+idade = ANO_ATUAL - ano_nascimento
+print(f'Olá, {nome} {sobrenome}! Bom dia! Você possui {idade} anos!')
 
-# exercicio_1////////////////////////////////////////////////////////////
-
-x = int(input('Digite um valor'))
-y = int(input('Digite outro valor'))
-
-soma = x+y
-
-if soma % 2 == 0:
-    print(x)
-else:
-    print(y)
+# exercicio_1
+x = int(input('Digite um valor: '))
+y = int(input('Digite outro valor: '))
+soma = x + y
+print(x if soma % 2 == 0 else y)
 
 # exercicio_2
-
-nota_1 = int(input('Digite a primeira nota')
-nota_2 = int(input('Digite a segunda nota')
-nota_3 = int(input('Digite a Terceira nota')
-nota_4 = int(input('Digite a Quarta nota')
-
+nota_1 = int(input('Digite a primeira nota: '))
+nota_2 = int(input('Digite a segunda nota: '))
+nota_3 = int(input('Digite a terceira nota: '))
+nota_4 = int(input('Digite a quarta nota: '))
 media = (nota_1 + nota_2 + nota_3 + nota_4) / 4
+print('Aprovado' if media >= 7 else 'Reprovado')
 
-if media >= 7:
-    print('Aprovado')
-else:
-    print('Reprovado')
-
-
-# exercicio_3////////////////////////////////////////////////////////////
-
-temp_f = float(input('Diga a temperatura em Fahrenheit'))
+# exercicio_3
+temp_f = float(input('Digite a temperatura em Fahrenheit: '))
 f_para_c = (temp_f - 32)/1.8
-print('A temperatura em graus Celcius é' f_para_c 'C°')
+print(f'A temperatura em graus Celsius é {f_para_c:.1f}°C')
 
-temp_c = float(input('digite a temperatura em Celcius'))
-c_para_f = (1.8* temp_c) + 32
-print('A temperatura em Farenheit é', c_para_f, 'F°')
+temp_c = float(input('Digite a temperatura em Celsius: '))
+c_para_f = (1.8 * temp_c) + 32
+print(f'A temperatura em Fahrenheit é {c_para_f:.1f}°F')
 
-# exercicio_4//////////////////////////////////////////////////////////////
+# exercicio_4
+valor = float(input('Digite o valor do produto: R$ '))
+print('\nFormas de pagamento:')
+print('1 - PIX (15% de desconto)')
+print('2 - À vista no crédito (10% de desconto)')
+print('3 - Parcelado em 2x (sem juros)')
+print('4 - Parcelado em 3x (10% de juros)')
 
-valor =  float(input('Digite o valor do produto'))
-
-print('Formas de pagamento:')
-print('1 - PIX')
-print('2 - A vista no Crédito')
-print('3 - Parcelado em 2x no Crédito')
-print('4 - Parcelado em 3x no crédito')
-
-metodo = int(input('Qual a forma de pagamento'))
+metodo = int(input('\nQual a forma de pagamento? '))
 
 if metodo == 1:
-    resultado = valor - (valor*(15/100))
-    print(f'Valor total com desconto de 15%: {resultado}')
-if metodo == 2:
-    resultado = valor - (valor*(10/100))
-    print(f'Valor total com desconto de 10%: {resultado}')
-if metodo == 3:
-    resultado = valor 
-    print(f'Valor total parcelado em 2x sem juros')
-if metodo == 4:
-    resultado = valor + (valor*(10/100))
-    print(f'Valor total parcelado em 3x ou mais com juros de 10% {resultado}')
+    total = valor * 0.85
+    print(f'Valor total com desconto: R$ {total:.2f}')
+elif metodo == 2:
+    total = valor * 0.90
+    print(f'Valor total com desconto: R$ {total:.2f}')
+elif metodo == 3:
+    print(f'2x de R$ {valor/2:.2f} (Total: R$ {valor:.2f})')
+elif metodo == 4:
+    total = valor * 1.10
+    print(f'3x de R$ {total/3:.2f} (Total: R$ {total:.2f})')
 else:
-    print(f'Opção invalida, escolha uma opção valida.')
+    print('Opção inválida!')
 
-# exercicio_5/////////////////////////////////////////////////////////////////
-
+# exercicio_5
 DOLAR = 5.20
-def conversor (valor):
-    if valor<0:
-        return None
-    resultado = (valor * DOLAR)
-    return resultado
+
+def conversor(valor):
+    return round(valor * DOLAR, 2) if valor >= 0 else None
 
 
-assert conversor(5) == 26
-assert conversor(10) == 52
-assert conversor(100) == 520
-assert conversor(2.50) == 13
-assert conversor(1.99) == 10.34
+    assert conversor(5) == 26.0
+    assert conversor(10) == 52.0
+    assert conversor(100) == 520.0
+    assert conversor(2.50) == 13.0
+    assert conversor(1.99) == 10.35
+    print("Todos os testes do conversor passaram!")
 
+test_conversor()
 print(conversor(1.99))
 
-# exercicio_6/////////////////////////////////////////////////////////////////
-
+# exercicio_6
 def operacao(x, y, z):
     if (y * z) > x:
         return x
-    if (x + y) > z:
+    elif (x + y) > z:
         return y
-    if (z - y) > x:
+    elif (z - y) > x:
         return z
     else:
-        print(x+y+z)
+        return x + y + z
 
-x = int(input('Digite um valor'))
-y = int(input('Digite um valor'))
-z = int(input('Digite um valor'))
+x = int(input('Digite um valor: '))
+y = int(input('Digite um valor: '))
+z = int(input('Digite um valor: '))
 print(operacao(x, y, z))
 
-# exercicio_7///////////////////////////////////////////////////////////////////
-
+# exercicio_7
 def nome_do_mes(numero_mes):
-    if numero_ mes == 1:
-        return 'Janeiro'
-    if numero_ mes == 2:
-        return 'Fevereiro'
-    if numero_ mes == 3:
-        return 'Março'
-    if numero_ mes == 4:
-        return 'Abril'
-    if numero_ mes == 5:
-        return 'Maio'
-    if numero_ mes == 6:
-        return 'Junho'
-    if numero_ mes == 7:
-        return 'Julho'
-    if numero_ mes == 8:
-        return 'Agosto'
-    if numero_ mes == 9:
-        return 'Setembro'
-    if numero_ mes == 10:
-        return 'Outubro'
-    if numero_ mes == 11:
-        return 'Novembro'
-    if numero_ mes == 12:
-        return 'Dezembro'
-    else:
-        return 'Invalido'
-    
-# exercicio_9//////////////////////////////////////////////////////////////////////
+    meses = {
+        1: 'Janeiro', 2: 'Fevereiro', 3: 'Março', 4: 'Abril',
+        5: 'Maio', 6: 'Junho', 7: 'Julho', 8: 'Agosto',
+        9: 'Setembro', 10: 'Outubro', 11: 'Novembro', 12: 'Dezembro'
+    }
+    return meses.get(numero_mes, 'Inválido')
 
+# Teste exercicio_7
+print(nome_do_mes(1))  # Janeiro
+print(nome_do_mes(13)) # Inválido
+
+# exercicio_9
 def data_valida(dia, mes, ano):
-    if mes < 1 or mes > 12:
+    if mes < 1 or mes > 12 or ano < 0 or dia < 1:
         return False
-    if ano < 0:
-        return False
-    if dia<1 or dia>31:
-        return False 
-    if mes == 2:
-        if dia > 29:
-            return False 
-        if dia == 29: 
-            bissexto == (ano % 4) == 0
-            return bissexto
-    if dia == 31:
-        if mes == 1 or mes == 3 or mes == 5 or mes == 7 or mes == 8 or mes == 10 or mes == 12:
-            return True
-    return True
-
-# exercicio_10////////////////////////////////////////////////////////////////////////
-
-number = int(input('Digite um numero positivo de até 3 digitos'))
-
-if number<0 or number>999:
-        print('NÚMERO INVALIDO')
     
-unidade = number % 10
-dezena = (number//10)%10
-centena = number//100
+    if mes == 2:
+        bissexto = (ano % 4 == 0 and ano % 100 != 0) or (ano % 400 == 0)
+        return dia <= 29 if bissexto else dia <= 28
+    elif mes in [4, 6, 9, 11]:
+        return dia <= 30
+    else:
+        return dia <= 31
 
-print('Centena:', centena)
-print('Dezena:', dezena)
-print('Unidade:', unidade)
+# Teste exercicio_9
+print(data_valida(29, 2, 2020))  # True (ano bissexto)
+print(data_valida(29, 2, 2021))  # False
 
+# exercicio_10
+number = int(input('Digite um número positivo de até 3 dígitos: '))
+    
+if number < 0 or number > 999:
+    print('NÚMERO INVÁLIDO')
+else:
+    unidade = number % 10
+    dezena = (number // 10) % 10
+    centena = number // 100
+    print(f'Centena: {centena}')
+    print(f'Dezena: {dezena}')
+    print(f'Unidade: {unidade}')
