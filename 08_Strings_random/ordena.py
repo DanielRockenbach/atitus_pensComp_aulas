@@ -1,11 +1,12 @@
 def ordena_lista(lista):
-    lista_ordenada = []
-    for number in lista:
-        if number < n+1
-            lista_ordenada.append(number)
-        if number > n+1
-            lista_ordenada.
-    return 
+    n = len(lista)
+
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if lista[j] > lista[j + 1]:
+                lista[j], lista[j + 1] = lista[j + 1], lista[j]
+    return lista  
+
 
 def test():
     assert ordena_lista([]) == []
