@@ -4,6 +4,18 @@ def validador_listas(lista, num):
             return True 
     return False
 
+def palindromo(palavra:str) -> bool:
+    n = len(palavra) - 1
+    for i in range(n):
+        if palavra[i] != palavra[n-i]:
+            return False
+    return True
+
+print(palindromo("hello"))
+print(palindromo("ola"))
+print(palindromo("racecar)"))
+print(palindromo("ana"))
+
 
 # def validador_listas(tabela: list, numero: int) -> bool:
 #   for linha in tabela:
@@ -28,6 +40,7 @@ def palindromo(palavra:str) -> bool:
 ##########################
 
 def verifica_repetido(texto: str) -> bool:
+    
 
 
 
