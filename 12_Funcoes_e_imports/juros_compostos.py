@@ -1,5 +1,12 @@
-def calcular_juros_compostos(principal, taxa, tempo):
-    pass
+def calcular_juros_compostos(valor: int, taxa:int, tempo: int) -> int:
+    if valor < 0:
+        return 'Valor invalido'
+    if tempo <= 0:
+        return 'Valor invalido'
+    for i in range(11):
+        valor * (1 + taxa)** tempo
+    return 
+
 
 
 def calcular_juros_compostos_recursivo(principal, taxa, tempo):
