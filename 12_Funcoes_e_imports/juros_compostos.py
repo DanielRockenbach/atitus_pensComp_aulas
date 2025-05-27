@@ -1,11 +1,11 @@
-def calcular_juros_compostos(valor: int, taxa:int, tempo: int) -> int:
+def calcular_juros_compostos(valor: int, taxa:int, tempo: int) -> int|None :
     if valor < 0:
-        return 'Valor invalido'
-    if tempo <= 0:
-        return 'Valor invalido'
-    for i in range(11):
-        valor * (1 + taxa)** tempo
-    return 
+        return None
+    if tempo < 0:
+        return None
+    return valor * ((1 + taxa)** tempo)
+        
+        
 
 
 
