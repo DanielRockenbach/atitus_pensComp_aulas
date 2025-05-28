@@ -10,7 +10,9 @@ def calcular_juros_compostos(valor: int, taxa:int, tempo: int) -> int|None :
 
 
 def calcular_juros_compostos_recursivo(principal, taxa, tempo):
-    pass
+    if tempo == 0:
+        return principaç
+    return calcular_juros_compostos_recursivo(principal, taxa, tempo - 1)* (1 + taxa)
 
 
 assert calcular_juros_compostos(1000, 0.05, 5) == 1276.2815625000003
