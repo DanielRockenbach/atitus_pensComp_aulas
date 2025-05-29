@@ -3,7 +3,11 @@ from datetime import date
 
 # Crie método que recebe uma string (mm-dd-aaaa) e retorna uma data
 def str_to_date(date_str):
-    pass
+    date_str = datetime.datetime.strptime(date_str, "%M-%d-%Y")
+    return date_str
+
+        
+    
 
 
 assert str_to_date('10-01-2025') == date(day=10, month=1, year=2025)
