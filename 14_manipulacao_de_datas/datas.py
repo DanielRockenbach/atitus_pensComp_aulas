@@ -44,7 +44,7 @@ assert delta_dias(date(year=2025, month=1, day=1), date(year=2025, month=1, day=
 
 # O mesmo dia no próximo mês (ou o anterior próximo)
 def proximo_mes(data_a):
-    pass
+    
 
 
 assert proximo_mes(date(year=2025, month=1, day=1)) == date(year=2025, month=2, day=1)
@@ -55,7 +55,18 @@ assert proximo_mes(date(year=2025, month=1, day=30)) == date(year=2025, month=2,
 
 # 1 se esta data está no futuro, -1 se no passado ou 0 se for hoje.
 def data_futuro(data: date) -> str:
-    pass
+    import datetime
+def data_futura(data_str):
+    str_date = str_to_date(data_str)
+    data_atual = datetime.datetime.now()
+    diferenca = data_atual - str_date
+    print(diferenca.days)
+    if diferenca.days < 0:
+        return 'Futuro'
+    if diferenca.days == 0:
+        return 'Presente'
+    if diferenca.days > 0:
+        return 'Passado'
 
 
 assert data_futuro(date(day=1, month=1, year=2099)) == 1
