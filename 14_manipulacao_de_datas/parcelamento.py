@@ -1,8 +1,19 @@
 from datetime import date
 
 
-def parcelamento(valor, parcelas, dt_venda):
-    pass
+def parcelamento(valor: int, parcelas: int, dt_venda: str) -> list or None:
+    lista_parcelas[]
+    if parcelas == 0 or parcelas > valor:
+        return None 
+    
+    for i in range(vezes)
+        if i == vezes - 1
+            parcela  == (valor// vezes) + (valor % vezes)
+            lista_parcelas.append(parcela)
+            return lista_parcelas
+        else:
+            parcela = valor // vezes
+            lista_parcelas.append(parcela)
 
 
 data_venda = date(2025, 1, 31)
