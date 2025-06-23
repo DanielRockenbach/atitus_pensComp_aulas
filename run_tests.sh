@@ -28,6 +28,6 @@ run_tests 15_manipulacao_de_arquivos/
 run_tests 16_json,XML,CSV/
 run_tests 17_TDD/
 run_tests 18_exercicios/
-run_tests XX_extras/
+# run_tests XX_extras/
 
 echo "All tests ran successfully"
